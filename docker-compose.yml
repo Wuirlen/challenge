@@ -19,7 +19,7 @@ services:
     restart: always
     tty: true
     environment:
-      - POSTGRES_DB=idez
+      - POSTGRES_DB=idez 
       - POSTGRES_USER=idez
       - POSTGRES_PASSWORD=idez
     ports:
